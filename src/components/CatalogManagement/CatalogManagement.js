@@ -137,6 +137,7 @@ function CatalogManagement() {
  <table style={{ width: "100%", borderCollapse: "collapse" }}>
         <thead>
           <tr>
+          <th style={{ border: "1px solid #ccc", padding: "8px", textAlign: "left" }}>Id</th>
             <th style={{ border: "1px solid #ccc", padding: "8px", textAlign: "left" }}>Title</th>
             <th style={{ border: "1px solid #ccc", padding: "8px", textAlign: "left" }}>Auhor</th>
             <th style={{ border: "1px solid #ccc", padding: "8px", textAlign: "center" }}>ISBN</th>
