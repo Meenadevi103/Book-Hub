@@ -1,23 +1,53 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Dependencies
+node_modules/
+bookhub_backend/venv/
+bookhub_backend/env/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+bookhub_backend/db.sqlite3
+*.sqlite3
 
-# testing
-/coverage
+# Django
+*.log
+local_settings.py
+bookhub_backend/media/
+bookhub_backend/staticfiles/
 
-# production
+# React
 /build
+/build-Copy
 
-# misc
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Environment variables
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Misc
+.cache/
+*.pid
+*.seed
+*.pid.lock
