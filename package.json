@@ -1,8 +1,6 @@
 {
   "name": "book-hub",
   "version": "0.1.0",
-  
-  "homepage": "https://your-netlify-site-name.netlify.app/book-hub",
 
   "private": true,
   "dependencies": {
